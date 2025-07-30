@@ -166,9 +166,9 @@ const Index = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <span className="text-terminal-green">→</span>
-              <span className="text-primary">Email:</span>
+              <span className="text-primary">Contact:</span>
               <span className="text-foreground hover:text-primary transition-colors cursor-pointer">
-                hacker@system.dev
+                mail bethel@protonmail.com
               </span>
             </div>
             
@@ -199,7 +199,7 @@ const Index = () => {
             <div className="text-terminal-green mb-4">$ echo "Let's collaborate!"</div>
             <div className="flex gap-3">
               <Button variant="hacker" className="flex-1">
-                Send Message
+                Contact Bethel
               </Button>
               <Button variant="matrix">
                 Download CV
