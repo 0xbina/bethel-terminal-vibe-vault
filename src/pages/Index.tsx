@@ -111,28 +111,28 @@ const Index = () => {
     <div className="min-h-screen py-20 px-4">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-display font-bold text-center mb-12 text-primary neon-glow">
-          [PROJECTS]
+          Bethel's Projects
         </h2>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
             {
-              title: "SecureVault",
-              description: "Encrypted password manager with zero-knowledge architecture",
-              tech: "React • Node.js • Encryption",
+              title: "Matrix FX Engine",
+              description: "A tool for generating animated matrix-style code effects",
+              tech: "JavaScript • Canvas • CSS Animations",
               status: "ACTIVE"
             },
             {
-              title: "NetScanner",
-              description: "Network vulnerability assessment tool",
-              tech: "Python • Nmap • Machine Learning",
-              status: "BETA"
+              title: "Terminal NotePad",
+              description: "A minimalist note-taking app in terminal UI",
+              tech: "React • Local Storage • Monospace",
+              status: "LIVE"
             },
             {
-              title: "CyberDash",
-              description: "Real-time security monitoring dashboard",
-              tech: "React • WebSockets • D3.js",
-              status: "LIVE"
+              title: "RetroShell",
+              description: "A simulated command-line shell built for nostalgia and learning",
+              tech: "TypeScript • Terminal Emulation • Retro",
+              status: "BETA"
             }
           ].map((project, index) => (
             <TerminalWindow key={index} title={`project_${index + 1}.exe`}>
