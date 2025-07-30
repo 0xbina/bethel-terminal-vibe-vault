@@ -83,10 +83,10 @@ const Index = () => {
           <div className="mt-8 space-y-4 text-foreground">
             <div className="text-terminal-green">$ cat profile.txt</div>
             <div className="pl-4 space-y-2">
-              <p>→ Full-stack developer with 5+ years of experience</p>
-              <p>→ Specialized in React, Node.js, and cybersecurity</p>
-              <p>→ Passionate about creating secure, scalable applications</p>
-              <p>→ Always exploring the latest in tech and security</p>
+              <p>→ Bethel is a digital explorer passionate about retro computing</p>
+              <p>→ Cybersecurity enthusiast and hacker culture aesthetics lover</p>
+              <p>→ Building interfaces that feel like forgotten terminals of the future</p>
+              <p>→ Always exploring the intersection of vintage tech and modern code</p>
             </div>
             
             <div className="text-terminal-green mt-6">$ ls skills/</div>
