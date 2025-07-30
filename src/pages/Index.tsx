@@ -233,6 +233,15 @@ const Index = () => {
         {renderCurrentSection()}
       </div>
       
+      {/* Footer */}
+      <footer className="relative z-10 border-t border-primary/30 bg-background/80 backdrop-blur-sm">
+        <div className="max-w-6xl mx-auto px-4 py-4">
+          <div className="text-center text-sm font-mono text-terminal-dim">
+            <span className="text-terminal-green">$</span> Last login: Jul 30 2025 from 127.0.0.1 — Welcome back, Bethel.
+          </div>
+        </div>
+      </footer>
+      
       {/* Phosphor effect overlay */}
       <div className="phosphor fixed inset-0 pointer-events-none z-0" />
     </div>
