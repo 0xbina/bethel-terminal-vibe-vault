@@ -51,7 +51,7 @@ const Index = () => {
         ) : (
           <div className="space-y-4 sm:space-y-6">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold text-primary neon-glow animate-phosphor-glow">
-              <span className="glitch" data-text="HACKER">HACKER</span>
+              <span className="glitch" data-text="Bethel's Terminal">Bethel's Terminal</span>
             </h1>
             <p className="text-base sm:text-lg md:text-xl font-mono text-terminal-dim max-w-2xl mx-auto px-4">
               Elite developer | System architect | Digital explorer
